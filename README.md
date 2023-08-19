@@ -54,7 +54,7 @@ Sys.setenv(DeepL_API_KEY = "Your API key")
 
 ## Demo video
 
-### [deepRstudio demo on YouTube](https://youtu.be/fMtxS6zK25A)
+- [deepRstudio demo on YouTube](https://youtu.be/fMtxS6zK25A)
 
 ## Functions for DeepL API
 
