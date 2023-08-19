@@ -21,7 +21,7 @@ Description: Enhancing cross-language compatibility within the RStudio environme
     simplifying the translation process and making code more accessible and comprehensible to people with diverse language backgrounds. 
     This package uses 'rstudioapi' package and 'DeepL' API, and is simply implemented, executed from addins or via shortcuts on RStudio. 
     With just a few steps, content can be translated between supported languages, promoting better collaboration 
-    and expanding the global reach of work.
+    and expanding the global reach of work. The functionality of this package works only on RStudio using rstudioapi.
 Depends: R (>= 4.2.0)
 Imports: httr, 
     jsonlite,

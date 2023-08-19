@@ -22,6 +22,8 @@ This package uses 'rstudioapi' package and 'DeepL' API, and is simply implemente
 With just a few steps, content can be translated between supported languages, promoting better collaboration 
 and expanding the global reach of work.
 
+The functionality of this package works only on RStudio using rstudioapi.
+
 ## Installation of the deepRstudio package
 
 ### 1. Start R / RStudio console.
