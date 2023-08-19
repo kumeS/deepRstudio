@@ -52,6 +52,8 @@ Please register for a membership (either free or paid) on the DeepL website (htt
 Sys.setenv(DeepL_API_KEY = "Your API key")
 ```
 
+## [deepRstudio demo on YouTube](https://youtu.be/fMtxS6zK25A)
+
 ## Functions for DeepL API
 
 |Function|Description|Script|Flowchart|
