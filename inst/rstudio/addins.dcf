@@ -1,0 +1,42 @@
+Name: Translation into English : deepRstudio
+Description: Translate into English via DeepL API
+Binding: deepel_rstudioapi_2EN
+Interactive: true
+
+Name: Translation into Chinese : deepRstudio
+Description: Translate into Chinese via DeepL API
+Binding: deepel_rstudioapi_2ZH
+Interactive: true
+
+Name: Translation into Spanish : deepRstudio
+Description: Translate into Spanish via DeepL API
+Binding: deepel_rstudioapi_2ES
+Interactive: true
+
+Name: Translation into French : deepRstudio
+Description: Translate into French via DeepL API
+Binding: deepel_rstudioapi_2FR
+Interactive: true
+
+Name: Translation into Russian : deepRstudio
+Description: Translate into Russian via DeepL API
+Binding: deepel_rstudioapi_2RU
+Interactive: true
+
+Name: Translation into Portuguese : deepRstudio
+Description: Translate into Portuguese via DeepL API
+Binding: deepel_rstudioapi_2PT
+Interactive: true
+
+Name: Translation into Indonesian : deepRstudio
+Description: Translate into Indonesian via DeepL API
+Binding: deepel_rstudioapi_2ID
+Interactive: true
+
+Name: Translation into Japanese : deepRstudio
+Description: Translate into Japanese via DeepL API
+Binding: deepel_rstudioapi_2JA
+Interactive: true
+
+
+

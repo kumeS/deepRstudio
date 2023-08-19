@@ -1,9 +1,18 @@
 #' @title DeepL Translation Function
-#'
 #' @description This function translates text using the DeepL API.
 #'
 #' @param input The text to be translated.
-#' @param target_lang The target language code for translation (e.g., 'EN' for English, 'JA' for Japanese).
+#' @param target_lang The target language code for translation.
+#'    The language into which the text should be translated. Options are:
+#'    BG - Bulgarian, CS - Czech, DA - Danish, DE - German, EL - Greek,
+#'    EN - English (unspecified variant for backward compatibility; please select EN-GB or EN-US instead),
+#'    EN-GB - English (British), EN-US - English (American), ES - Spanish, ET - Estonian,
+#'    FI - Finnish, FR - French, HU - Hungarian, ID - Indonesian, IT - Italian,
+#'    JA - Japanese, KO - Korean, LT - Lithuanian, LV - Latvian, NB - Norwegian (Bokmål),
+#'    NL - Dutch, PL - Polish, PT - Portuguese (unspecified variant for backward compatibility; please select PT-BR or PT-PT instead),
+#'    PT-BR - Portuguese (Brazilian), PT-PT - Portuguese (all Portuguese varieties excluding Brazilian Portuguese),
+#'    RO - Romanian, RU - Russian, SK - Slovak, SL - Slovenian, SV - Swedish,
+#'    TR - Turkish, UK - Ukrainian, ZH - Chinese (simplified).
 #' @param Auth_Key Your DeepL API authentication key. Defaults to the value of the environment variable "DeepL_API_KEY".
 #' @param free_mode A boolean value; set to TRUE if using the free DeepL API, FALSE if using the paid version. Default is TRUE.
 #'
@@ -11,9 +20,7 @@
 #' @importFrom jsonlite fromJSON
 #'
 #' @return A data frame containing the detected source language, target language, and translated text.
-#'
 #' @export deepel
-#'
 #' @author Satoshi Kume
 #'
 #' @examples

@@ -1,12 +1,12 @@
-#' Translate Selected Text to English via DeepL API
+#' Translate Selected Text to Japanese via DeepL API
 #'
-#' This function uses the rstudioapi to execute English translation of the selected text using the DeepL API.
-#' It will attempt to auto-detect the language of the text and translate it into English.
-#' First, select the text and execute "DeepL Translation into English" from addins.
-#' As a result, the selected part will be translated into English.
+#' This function uses the rstudioapi to execute Japanese translation of the selected text using the DeepL API.
+#' It will attempt to auto-detect the language of the text and translate it into Japanese.
+#' First, select the text and execute "DeepL Translation into Japanese" from addins.
+#' As a result, the selected part will be translated into Japanese.
 #'
-#' @title Translate Selected Text to English via DeepL API
-#' @description Translate the selected text in RStudio into English using the DeepL API with auto-detection of the source language.
+#' @title Translate Selected Text to Japanese via DeepL API
+#' @description Translate the selected text in RStudio into Japanese using the DeepL API with auto-detection of the source language.
 #'    This function uses free-version DeepL API (https://api-free.deepl.com/v2/translate).
 #' @importFrom rstudioapi isAvailable getActiveDocumentContext insertText
 #' @importFrom assertthat assert_that
@@ -16,20 +16,20 @@
 #' \dontrun{
 #'
 #' #Select the following text: "La selección está traducida al inglés."
-#' #Then, execute "DeepL Translation into English" from RStudio addins.
+#' #Then, execute "DeepL Translation into Japanese" from RStudio addins.
 #'
 #' }
 
-deepel_rstudioapi_2EN <- function(){
+deepel_rstudioapi_2JA <- function(){
 
   assertthat::assert_that(rstudioapi::isAvailable())
 
   # Get the selected text
   txt = rstudioapi::getActiveDocumentContext()$selection[[1]]$text
 
-  # Translate into English
+  # Translate into Japanese
   res <- deepel(input = txt,
-                target_lang = 'EN',
+                target_lang = 'JA',
                 Auth_Key = Sys.getenv("DeepL_API_KEY"),
                 free_mode = TRUE)$text
 
