@@ -24,6 +24,8 @@ and expanding the global reach of work.
 
 The functionality of this package works only on RStudio using rstudioapi.
 
+DeepL API Docs : https://www.deepl.com/docs-api
+
 ## Installation of the deepRstudio package
 
 ### 1. Start R / RStudio console.
