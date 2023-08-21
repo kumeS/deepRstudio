@@ -52,9 +52,21 @@ library(deepRstudio)
 Please register for a membership (either free or paid) on the DeepL website (https://www.deepl.com/ja/docs-api) to obtain your API key.
 
 ```r
-#Set your key for the DeepL API
+# Set your key for the DeepL API
 Sys.setenv(DeepL_API_KEY = "Your API key")
 ```
+
+Create an .Rprofile file in your home directory and add your API key (using the code above) into it.
+
+```{r}
+# Create a file
+file.create("~/.Rprofile") 
+
+# [MacOS X] Open the file and edit it
+system(paste("open ~/.Rprofile"))
+```
+
+Note: Please be aware of newline character inconsistencies across different operating systems.
 
 ## Demo video
 
@@ -62,18 +74,18 @@ Sys.setenv(DeepL_API_KEY = "Your API key")
 
 ## Functions for DeepL API
 
-|Function|Description|Script|Flowchart|
-|:---|:---|:---:|:---:|
-|deepel|DeepL Translation Function|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel.R)||
-|deepel_from_EN|Translate English Text to Other Languages via DeepL API in your clipboard|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_from_EN.R)||
-|deepel_rstudioapi_2EN|Translate Selected Text to English via DeepL API (as RStudio Addins)|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_rstudioapi_2EN.R)||
-|deepel_rstudioapi_2ZH|Translate Selected Text to Chinese via DeepL API (as RStudio Addins)|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_rstudioapi_2ZH.R)||
-|deepel_rstudioapi_2ES|Translate Selected Text to Spanish via DeepL API (as RStudio Addins)|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_rstudioapi_2ES.R)||
-|deepel_rstudioapi_2FR|Translate Selected Text to French via DeepL API (as RStudio Addins)|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_rstudioapi_2FR.R)||
-|deepel_rstudioapi_2RU|Translate Selected Text to Russian via DeepL API (as RStudio Addins)|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_rstudioapi_2RU.R)||
-|deepel_rstudioapi_2PT|Translate Selected Text to Portuguese (all Portuguese varieties mixed) via DeepL API (as RStudio Addins)|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_rstudioapi_2PT.R)||
-|deepel_rstudioapi_2ID|Translate Selected Text to Indonesian via DeepL API (as RStudio Addins)|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_rstudioapi_2ID.R)||
-|deepel_rstudioapi_2JA|Translate Selected Text to Japanese via DeepL API (as RStudio Addins)|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_rstudioapi_2JA.R)||
+|Function|Description|Script|
+|:---|:---|:---:|
+|deepel|DeepL Translation Function|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel.R)|
+|deepel_from_EN|Translate English Text to Other Languages via DeepL API in your clipboard|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_from_EN.R)|
+|deepel_rstudioapi_2EN|Translate Selected Text to English via DeepL API (as RStudio Addins)|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_rstudioapi_2EN.R)|
+|deepel_rstudioapi_2ZH|Translate Selected Text to Chinese via DeepL API (as RStudio Addins)|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_rstudioapi_2ZH.R)|
+|deepel_rstudioapi_2ES|Translate Selected Text to Spanish via DeepL API (as RStudio Addins)|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_rstudioapi_2ES.R)|
+|deepel_rstudioapi_2FR|Translate Selected Text to French via DeepL API (as RStudio Addins)|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_rstudioapi_2FR.R)|
+|deepel_rstudioapi_2RU|Translate Selected Text to Russian via DeepL API (as RStudio Addins)|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_rstudioapi_2RU.R)|
+|deepel_rstudioapi_2PT|Translate Selected Text to Portuguese (all Portuguese varieties mixed) via DeepL API (as RStudio Addins)|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_rstudioapi_2PT.R)|
+|deepel_rstudioapi_2ID|Translate Selected Text to Indonesian via DeepL API (as RStudio Addins)|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_rstudioapi_2ID.R)|
+|deepel_rstudioapi_2JA|Translate Selected Text to Japanese via DeepL API (as RStudio Addins)|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_rstudioapi_2JA.R)|
 
 ## License
 

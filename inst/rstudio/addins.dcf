@@ -38,5 +38,9 @@ Description: Translate into Japanese via DeepL API
 Binding: deepel_rstudioapi_2JA
 Interactive: true
 
+Name: Translation and Speak in Japanese : deepRstudio
+Description: Translation into Japanese and Speak in Japanese via DeepL API on MacOS
+Binding: deepel_rstudioapi_speakInJA
+Interactive: true
 
 
