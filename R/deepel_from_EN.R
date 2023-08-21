@@ -27,7 +27,7 @@
 #' @examples
 #' \dontrun{
 #'
-#' #Copy English text into your clipboard the excute the function. Then paste your clipboard.
+#' #Copy English text into your clipboard to excute the function. Then paste your clipboard.
 #' deepel_from_EN(target_lang = 'JA')
 #'
 #' }
