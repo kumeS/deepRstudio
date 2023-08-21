@@ -26,6 +26,10 @@ The functionality of this package works only on RStudio using rstudioapi.
 
 DeepL API Docs : [https://www.deepl.com/docs-api](https://www.deepl.com/docs-api)
 
+## Demo video
+
+- [deepRstudio demo on YouTube](https://youtu.be/fMtxS6zK25A)
+
 ## Installation of the deepRstudio package
 
 ### 1. Start R / RStudio console.
@@ -40,7 +44,7 @@ install.packages("deepRstudio")
 library(deepRstudio)
 ```
 
-#### Dev-version installation (Recommended)
+#### Dev-version installation
 
 ```r
 devtools::install_github("kumeS/deepRstudio")
@@ -68,11 +72,7 @@ system(paste("open ~/.Rprofile"))
 
 Note: Please be aware of newline character inconsistencies across different operating systems.
 
-## Demo video
-
-- [deepRstudio demo on YouTube](https://youtu.be/fMtxS6zK25A)
-
-## Functions for DeepL API
+## Functions in deepRstudio
 
 |Function|Description|Script|
 |:---|:---|:---:|
