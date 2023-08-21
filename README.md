@@ -86,6 +86,7 @@ Note: Please be aware of newline character inconsistencies across different oper
 |deepel_rstudioapi_2PT|Translate Selected Text to Portuguese (all Portuguese varieties mixed) via DeepL API (as RStudio Addins)|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_rstudioapi_2PT.R)|
 |deepel_rstudioapi_2ID|Translate Selected Text to Indonesian via DeepL API (as RStudio Addins)|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_rstudioapi_2ID.R)|
 |deepel_rstudioapi_2JA|Translate Selected Text to Japanese via DeepL API (as RStudio Addins)|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_rstudioapi_2JA.R)|
+|deepel_rstudioapi_speakInJA|Translate and Speak in Japanese via DeepL API (as RStudio Addins)|[Script](https://github.com/kumeS/deepRstudio/blob/main/R/deepel_rstudioapi_speakInJA.R)|
 
 ## License
 
