@@ -46,7 +46,7 @@ DeepL API Docs : [https://www.deepl.com/docs-api](https://www.deepl.com/docs-api
 #### CRAN-version installation
 
 ```r
-# CRAN-version installation (Not yet)
+# CRAN-version installation
 install.packages("deepRstudio")
 library(deepRstudio)
 ```
@@ -61,6 +61,8 @@ library(deepRstudio)
 ### 3. Set the API key according to DeepL Web API.
 
 Please register for a membership (either free or paid) on the DeepL website (https://www.deepl.com/ja/docs-api) to obtain your API key.
+
+Note: DeepL API Free plan offers free translation of up to 500,000 words/characters per month.
 
 ```r
 # Set your key for the DeepL API
