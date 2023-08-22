@@ -51,12 +51,16 @@ install.packages("deepRstudio")
 library(deepRstudio)
 ```
 
+Note: Once restart R (Restart R on the Session or .rs.restartR()) is recommended.
+
 #### Dev-version installation
 
 ```r
 devtools::install_github("kumeS/deepRstudio")
 library(deepRstudio)
 ```
+
+Note: Once restart R (Restart R on the Session or .rs.restartR()) is recommended.
 
 ### 3. Set the API key according to DeepL Web API.
 
