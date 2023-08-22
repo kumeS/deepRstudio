@@ -11,10 +11,8 @@ Authors@R: c(
     )
 Maintainer: Satoshi Kume <satoshi.kume.1984@gmail.com>
 Description: Enhancing cross-language compatibility within the 'RStudio' environment and supporting seamless language understanding, 
-    the 'deepRstudio' package leverages the power of the 'DeepL' API (see <https://www.deepl.com/docs-api>) to 
-    enable seamless, fast, accurate, and affordable translation of code comments, documents, and text. 
-    This package offers the ability to translate selected text into English (EN), 
-    as well as from English into various languages, namely Japanese (JA), Chinese (ZH), Spanish (ES), 
+    the 'deepRstudio' package leverages the power of the 'DeepL' API (see <https://www.deepl.com/docs-api>) to enable seamless, fast, accurate, and affordable translation of code comments, documents, and text. 
+    This package offers the ability to translate selected text into English (EN), as well as from English into various languages, namely Japanese (JA), Chinese (ZH), Spanish (ES), 
     French (FR), Russian (RU), Portuguese (PT), and Indonesian (ID). 
     With much of the text being written in English, the emphasis is on compatibility from English. 
     It is also designed for developers working on multilingual projects and data analysts collaborating with international teams, 
