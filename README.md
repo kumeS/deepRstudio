@@ -33,6 +33,9 @@ The functionality of this package works only on RStudio using rstudioapi.
 
 DeepL API Docs : [https://www.deepl.com/docs-api](https://www.deepl.com/docs-api)
 
+**To obtain your DeepL API key, you must register for an account at the DeepL website. 
+You can register for a free account. This package is built for use with the free version of the Web API.**
+
 ## Demo video
 
 - [deepRstudio demo on YouTube](https://youtu.be/fMtxS6zK25A)
