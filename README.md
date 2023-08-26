@@ -70,9 +70,23 @@ Note: Once restart R (Restart R on the Session or .rs.restartR()) is recommended
 
 Please register for a membership (either free or paid) on the DeepL website (https://www.deepl.com/ja/docs-api) to obtain your API key.
 
+Step 1. log in to the DeepL website.
 
-<img src="https://github.com/fluidicon.png" alt="GitHub Logo" width="200"/>
+<div align="center">
+<img src="inst/figures/Account_01.png" alt="GitHub Logo1" width="300"/>
+</div>
 
+Step 2. click on the Account item.
+
+<div align="center">
+<img src="inst/figures/Account_02.png" alt="GitHub Logo2" width="300"/>
+</div>
+
+Step 3. Scroll down in the Account section and you will see your DeepL API key.
+
+<div align="center">
+<img src="inst/figures/Account_03.png" alt="GitHub Logo3" width="300"/>
+</div>
 
 Note: DeepL API Free plan offers free translation of up to 500,000 words/characters per month.
 
