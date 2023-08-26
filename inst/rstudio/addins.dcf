@@ -1,44 +1,44 @@
-Name: Translation into English : deepRstudio
+Name: Translation into English
 Description: Translate into English via DeepL API
 Binding: deepel_rstudioapi_2EN
 Interactive: true
 
-Name: Translation into Chinese : deepRstudio
+Name: Translation into Chinese
 Description: Translate into Chinese via DeepL API
 Binding: deepel_rstudioapi_2ZH
 Interactive: true
 
-Name: Translation into Spanish : deepRstudio
+Name: Translation into Spanish
 Description: Translate into Spanish via DeepL API
 Binding: deepel_rstudioapi_2ES
 Interactive: true
 
-Name: Translation into French : deepRstudio
+Name: Translation into French
 Description: Translate into French via DeepL API
 Binding: deepel_rstudioapi_2FR
 Interactive: true
 
-Name: Translation into Russian : deepRstudio
+Name: Translation into Russian
 Description: Translate into Russian via DeepL API
 Binding: deepel_rstudioapi_2RU
 Interactive: true
 
-Name: Translation into Portuguese : deepRstudio
+Name: Translation into Portuguese
 Description: Translate into Portuguese via DeepL API
 Binding: deepel_rstudioapi_2PT
 Interactive: true
 
-Name: Translation into Indonesian : deepRstudio
+Name: Translation into Indonesian
 Description: Translate into Indonesian via DeepL API
 Binding: deepel_rstudioapi_2ID
 Interactive: true
 
-Name: Translation into Japanese : deepRstudio
+Name: Translation into Japanese
 Description: Translate into Japanese via DeepL API
 Binding: deepel_rstudioapi_2JA
 Interactive: true
 
-Name: Translation and Speak in Japanese : deepRstudio
+Name: Translation and Speak in Japanese
 Description: Translation into Japanese and Speak in Japanese via DeepL API on MacOS
 Binding: deepel_rstudioapi_speakInJA
 Interactive: true
