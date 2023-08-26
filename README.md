@@ -59,7 +59,8 @@ Note: Once restart R (Restart R on the Session or .rs.restartR()) is recommended
 #### Dev-version installation
 
 ```r
-devtools::install_github("kumeS/deepRstudio")
+#v0.0.5
+devtools::install_github("kumeS/deepRstudio", ref = "v0.0.5")
 library(deepRstudio)
 ```
 
@@ -68,6 +69,10 @@ Note: Once restart R (Restart R on the Session or .rs.restartR()) is recommended
 ### 3. Set the API key according to DeepL Web API.
 
 Please register for a membership (either free or paid) on the DeepL website (https://www.deepl.com/ja/docs-api) to obtain your API key.
+
+
+<img src="https://github.com/fluidicon.png" alt="GitHub Logo" width="200"/>
+
 
 Note: DeepL API Free plan offers free translation of up to 500,000 words/characters per month.
 
