@@ -88,7 +88,7 @@ Please register for a membership (either free or paid) on the DeepL website (htt
 <img src="inst/figures/Account_03.png" alt="GitHub Logo3" width="600"/>
 </div>
 
-Note: DeepL API Free plan offers free translation of up to 500,000 words/characters per month.
+**Note: DeepL API Free plan offers free translation of up to 500,000 words/characters per month.**
 
 ```r
 # Set your key for the DeepL API
