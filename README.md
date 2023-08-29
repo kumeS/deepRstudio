@@ -110,7 +110,7 @@ Note: Please be aware of newline character inconsistencies across different oper
 Here is an example of `.Rprofile` configuration.
 
 <div align="center">
-<img src="inst/figures/Account_04.png" alt="GitHub Logo1" width="400"/>
+<img src="inst/figures/Account_04.png" alt="GitHub Logo1" width="500"/>
 </div>
 
 ## Functions in deepRstudio
