@@ -79,7 +79,7 @@ Please register for a membership (either free or paid) on the DeepL website (htt
 **Step 2:** click on the Account item.
 
 <div align="center">
-<img src="inst/figures/Account_02.png" alt="GitHub Logo2" width="300"/>
+<img src="inst/figures/Account_02.png" alt="GitHub Logo2" width="350"/>
 </div>
 
 **Step 3:** Scroll down in the Account section and you will see your DeepL API key.
