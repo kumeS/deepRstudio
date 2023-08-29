@@ -7,7 +7,7 @@
 deepel_rstudioapi_2PT()
 }
 \value{
-A message indicating the completion of the translation. No value is returned.
+A message indicating the completion of the translation.
 }
 \description{
 Translate the selected text in RStudio into Portuguese using the DeepL API with auto-detection of the source language.

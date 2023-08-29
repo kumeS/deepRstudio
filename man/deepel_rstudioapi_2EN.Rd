@@ -7,7 +7,7 @@
 deepel_rstudioapi_2EN()
 }
 \value{
-A message indicating the completion of the translation. No value is returned.
+No value is returned.
 }
 \description{
 Translate the selected text in RStudio into English using the DeepL API with auto-detection of the source language.

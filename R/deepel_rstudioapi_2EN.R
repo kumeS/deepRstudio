@@ -10,7 +10,7 @@
 #'    This function uses free-version DeepL API (https://api-free.deepl.com/v2/translate).
 #' @importFrom rstudioapi isAvailable getActiveDocumentContext insertText
 #' @importFrom assertthat assert_that
-#' @return A message indicating the completion of the translation. No value is returned.
+#' @return No value is returned.
 #' @author Satoshi Kume
 #' @examples
 #' \dontrun{
@@ -35,7 +35,7 @@ deepel_rstudioapi_2EN <- function(){
 
   # Replace the selected text
   rstudioapi::insertText(text = as.character(res))
-  return(message("Finished!!"))
+  #return(message("Finished!!"))
 
 }
 
