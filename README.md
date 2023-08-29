@@ -6,8 +6,6 @@ maturing](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https
 [![CRAN](https://www.r-pkg.org/badges/version/deepRstudio)](https://cran.r-project.org/web/packages/deepRstudio/index.html)
 [![CRAN_latest_release_date](https://www.r-pkg.org/badges/last-release/deepRstudio)](https://cran.r-project.org/package=deepRstudio)
 [![CRAN](https://cranlogs.r-pkg.org/badges/grand-total/deepRstudio)](http://www.datasciencemeta.com/rpackages)
-[![CRAN downloads last month](http://cranlogs.r-pkg.org/badges/deepRstudio)](https://cran.r-project.org/package=deepRstudio)
-[![CRAN downloads last week](http://cranlogs.r-pkg.org/badges/last-week/deepRstudio)](https://cran.r-project.org/package=deepRstudio)
 [![:total status badge](https://kumes.r-universe.dev/badges/:total)](https://kumes.r-universe.dev)
 [![deepRstudio status badge](https://kumes.r-universe.dev/badges/deepRstudio)](https://kumes.r-universe.dev)
 <!-- badges: end -->
