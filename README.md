@@ -36,7 +36,9 @@ You can register for a free account. This package is built for use with the free
 
 ## Demo video
 
-- [deepRstudio demo on YouTube](https://youtu.be/fMtxS6zK25A)
+- [deepRstudio demo v1 on YouTube](https://youtu.be/fMtxS6zK25A)
+
+- [deepRstudio demo v2 on YouTube (02-SEP-2023)](https://youtu.be/-aDXhduiXDI?si=NJ9pFp52eh7Xr4QX)
 
 ## Installation of the deepRstudio package
 
