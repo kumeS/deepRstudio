@@ -35,7 +35,7 @@ deepel_rstudioapi_2JA <- function(){
 
   # Replace the selected text
   rstudioapi::insertText(text = as.character(res))
-  return(message("Finished!!"))
+  #return(message("Finished!!"))
 
 }
 
