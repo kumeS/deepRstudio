@@ -3,6 +3,11 @@ Description: Translate into English via DeepL API
 Binding: deepel_rstudioapi_2EN
 Interactive: false
 
+Name: Translation into Japanese
+Description: Translate into Japanese via DeepL API
+Binding: deepel_rstudioapi_2JA
+Interactive: false
+
 Name: Translation into Chinese
 Description: Translate into Chinese via DeepL API
 Binding: deepel_rstudioapi_2ZH
@@ -31,11 +36,6 @@ Interactive: false
 Name: Translation into Indonesian
 Description: Translate into Indonesian via DeepL API
 Binding: deepel_rstudioapi_2ID
-Interactive: false
-
-Name: Translation into Japanese
-Description: Translate into Japanese via DeepL API
-Binding: deepel_rstudioapi_2JA
 Interactive: false
 
 Name: Translation and Speak in Japanese
