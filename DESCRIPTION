@@ -2,7 +2,7 @@ Package: deepRstudio
 Type: Package
 Title: Seamless Language Translation in 'RStudio' using 'DeepL' API and 'Rstudioapi'
 Version: 0.0.9
-Date: 2023-09-05
+Date: 2023-09-12
 Authors@R: c(
     person (given = "Satoshi", family = "Kume",
     role = c("aut", "cre"), 
