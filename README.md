@@ -3,7 +3,7 @@
 <!-- badges: start -->
 [![Lifecycle:
 maturing](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![CRAN](https://www.r-pkg.org/badges/version/deepRstudio)](https://cran.r-project.org/web/packages/deepRstudio/index.html)
+[![CRAN](https://www.r-pkg.org/badges/version/deepRstudio)]( https://CRAN.R-project.org/package=deepRstudio)
 [![CRAN_latest_release_date](https://www.r-pkg.org/badges/last-release/deepRstudio)](https://cran.r-project.org/package=deepRstudio)
 [![CRAN](https://cranlogs.r-pkg.org/badges/grand-total/deepRstudio)](https://www.datasciencemeta.com/rpackages)
 [![:total status badge](https://kumes.r-universe.dev/badges/:total)](https://kumes.r-universe.dev)
