@@ -5,7 +5,7 @@
 maturing](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![CRAN](https://www.r-pkg.org/badges/version/deepRstudio)](https://cran.r-project.org/web/packages/deepRstudio/index.html)
 [![CRAN_latest_release_date](https://www.r-pkg.org/badges/last-release/deepRstudio)](https://cran.r-project.org/package=deepRstudio)
-[![CRAN](https://cranlogs.r-pkg.org/badges/grand-total/deepRstudio)](http://www.datasciencemeta.com/rpackages)
+[![CRAN](https://cranlogs.r-pkg.org/badges/grand-total/deepRstudio)](https://www.datasciencemeta.com/rpackages)
 [![:total status badge](https://kumes.r-universe.dev/badges/:total)](https://kumes.r-universe.dev)
 [![deepRstudio status badge](https://kumes.r-universe.dev/badges/deepRstudio)](https://kumes.r-universe.dev)
 <!-- badges: end -->
@@ -16,7 +16,7 @@ maturing](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https
 
 Enhancing cross-language compatibility within the RStudio environment and supporting seamless language understanding, 
 the deepRstudio package leverages the power of the 'DeepL' API 
-<see https://www.deepl.com/docs-api> to enable seamless, fast, accurate, and affordable translation of code comments, documents, and text. 
+(see <https://www.deepl.com/docs-api>) to enable seamless, fast, accurate, and affordable translation of code comments, documents, and text. 
 This package offers the ability to translate selected text into English, 
 as well as from English (EN) into various languages, namely Japanese (JA), Chinese (ZH), Spanish (ES), 
 French (FR), Russian (RU), Portuguese (PT), and Indonesian (ID). 
@@ -68,7 +68,7 @@ Note: Once restart R (Restart R on the Session or .rs.restartR()) is recommended
 
 ### 3. Set the API key according to DeepL Web API.
 
-Please register for a membership (either free or paid) on the DeepL website (https://www.deepl.com/ja/docs-api) to obtain your API key.
+Please register for a membership (either free or paid) on the DeepL website (https://www.deepl.com/docs-api) to obtain your API key.
 
 **Step 1:** log in to the DeepL website.
 
