@@ -1,4 +1,5 @@
-# deepRstudio: Seamless Language Translation in RStudio using DeepL API and rstudioapi
+# deepRstudio: Seamless Language Translation in RStudio using DeepL API and rstudioapi <img src="inst/figures/deepRstudio_logo.png" align="right" height="139" />
+
 
 <!-- badges: start -->
 [![Lifecycle:
